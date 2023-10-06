@@ -1,0 +1,194 @@
+     /* Add your custom CSS here */
+     .nav-item.nav-link.active {
+        font-weight: 350;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .custom-card {
+        position: relative;
+        text-align: center;
+        padding: 0px;
+        border: none;
+        overflow: hidden; /* Prevent card content from overflowing */
+    }
+
+    .custom-card img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .custom-card .card-text {
+        position: absolute;
+        bottom: 0; /* Align text at the bottom */
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+    }
+.card-body a{
+    border: thin;
+    text-decoration: none;
+    color: black;
+}
+.card {
+    border-width: 0px; /* You can adjust the value to make it thinner or thicker */
+    /* Add other card styling as needed */
+}
+#img41,
+#img42 {
+  margin-left: 20px;
+}
+#img42{
+    margin-left: 10px;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  .nav-item.nav-link.active {
+    font-weight: 350;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .custom-card {
+    position: relative;
+    text-align: center;
+    padding: 0px;
+    border: none;
+    overflow: hidden; /* Prevent card content from overflowing */
+  }
+  
+  .custom-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .custom-card .card-text {
+    position: absolute;
+    bottom: 0; /* Align text at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+  }
+  
+  .first {
+    margin-left: 20px;
+    width: 90%;
+  }
+  
+  .footer-logo {
+    margin-left: 20%;
+  }
+  
+  .ms-3 {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-item {
+    display: inline; /* Display items horizontally */
+    margin-right: 10px; /* Add some space between items */
+  }
+  
+  /* footer start */
+  
+  .footer {
+    background-color: #fff;
+    width: 100%;
+    height: 260px;
+  }
+  
+  .footer_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .footer_nav a {
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+  }
+  
+  .footer-logo-disney {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .footer-logo-disney-2 {
+    width: 84px;
+    height: 36px;
+  }
+  
+  .media_icon {
+    margin-left: 600px;
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copy {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 960px) {
+    .footer_nav {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .media_icon {
+      margin-left: 3px;
+    }
+  
+    .copy {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  #img4{
+    margin-left: 20px;
+  }
+  
+  .footer-copyright-size {
+    font-size: small;
+  }
+  
+  /* footer end */
+  
+  .to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+  }
+  
+  .to-top.active {
+    bottom: 30px;
+  }
+  #chj .col-md-6:first-child img {
+margin-left: 20px;
+}
+
+  
+  html {
+    scroll-behavior: smooth;
+  }
